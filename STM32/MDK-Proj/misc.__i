@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\ -I..\Libraries\CMSIS\Core -I..\Libraries\CMSIS\Core\CM3 -I..\Libraries\CMSIS\Core\CM3\startup -I..\Libraries\CMSIS\Core\CM3\startup\arm -I..\Libraries\STM32F10x_StdPeriph_Driver -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\APP -I..\APP\Sprint -I..\APP\Sprint
+-I "D:\kEIL MDK\ARM\RV31\INC"
+-I "D:\kEIL MDK\ARM\CMSIS\Include"
+-I "D:\kEIL MDK\ARM\Inc\ST\STM32F10x"
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_CL -o .\misc.o --omf_browse .\misc.crf --depend .\misc.d "..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c"
