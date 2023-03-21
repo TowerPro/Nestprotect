@@ -11,7 +11,7 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   font_awesome_flutter: ^8.4.0
-  dio: ^3.0.4
+  dio: ">=3.0.4 <6.0.0"
   async: ^2.3.0
   flutter_screenutil: ^0.6.0
 
